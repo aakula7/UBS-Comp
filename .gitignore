@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Files
+Yelp NYC Restaurant Info Webscrapping.py
+Yelp NYC Reviews Webscrapping.py
+data_collect_utils.py
+TESTIN.py
