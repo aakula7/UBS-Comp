@@ -59,7 +59,7 @@ Income, age, household size and income, urbanization, day of the week, and seaso
 
 ## Application Backend Structure
 
-[Application Backend Structure](https://github.com/aakula7/UBS-Comp/blob/master/Application%20Backend%20Structure.PNG)
+![Application Backend Structure](https://github.com/aakula7/UBS-Comp/blob/master/Application%20Backend%20Structure.PNG)
 
 The restaurant reviews and information are stored in a database and accessible by wealth manager employees, restaurant owners, and other bank employees. By entering a zipcode they are able to extract the information they need from the database, and if a zipcode data is not available, then the bank employees can request the application to scrape the information from Yelp. If the information for that zipcode was present, then the data is clustered according to affordability. As much of the data necessary for this project is confidential, we were not able to get access to sales, therefore we used the safety ratings and a paper that analyzed revenue generation according to safety rating in the New York City area, to methematically calculate the possible revenue generated for the restaurants. The restaurant of interest and the generated sales are then fed into the models Arima Forecasting, LSTM Anomaly Detection, and LSTM Multivariate modeling to develop a greater understanding of the restaurant its survivability.
 
