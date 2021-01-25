@@ -1,5 +1,17 @@
 # UBS-Comp
 
+***DISCLAIMER: SCRAPING OF YELP CODE IS NOT INCLUDED IN THE REPOSITORY AS IT IS AGAINST YELP TO SCRAPE THEIR DATA***
+
+# Contents
+[Abstract](https://github.com/aakula7/UBS-Comp/blob/master/README.md#abstract)
+[Project Proposal](https://github.com/aakula7/UBS-Comp/blob/master/README.md#project-proposal)
+[Overview](https://github.com/aakula7/UBS-Comp/blob/master/README.md#overview)
+[Goal](https://github.com/aakula7/UBS-Comp/blob/master/README.md#goal)
+[Specifications](https://github.com/aakula7/UBS-Comp/blob/master/README.md#specifications)
+[Data](https://github.com/aakula7/UBS-Comp/blob/master/README.md#data)
+[Application Backend Structure](https://github.com/aakula7/UBS-Comp/blob/master/README.md#application-backend-structure)
+[References](https://github.com/aakula7/UBS-Comp/blob/master/README.md#references)
+
 # Abstract
 Currently small businesses account for 99.9 percent of all U.S. business, however half of all small businesses fail within their first year, and more than 95 percent fail within their first five years. Restaurants make up a good portion of small business and are the hardest hit during recessions. Due to COVID, the restaurant industry has lost a net of 417,000 jobs and over $50 Billion in sales as of March and April, respectively. Algorithms cannot always predict when the next recession will hit, however we should be able to predict the future of small businesses and how to help them. We will develop an early warning system to better understand the trajectory of a small business, using restaurants across the state of New Jersey. The model takes into account features such as restaurant details, marketing and specials, restaurant safety and demographics. We are applying concepts of neural networks, LSTM, and K-Means Clustering  to predict if the restaurant will fail or survive over time.
 
@@ -61,6 +73,7 @@ Income, age, household size and income, urbanization, day of the week, and seaso
 
 ![Application Backend Structure](https://github.com/aakula7/UBS-Comp/blob/master/Application%20Backend%20Structure.PNG)
 
+**Application Backend Structure Description**
 The restaurant reviews and information are stored in a database and accessible by wealth manager employees, restaurant owners, and other bank employees. By entering a zipcode they are able to extract the information they need from the database, and if a zipcode data is not available, then the bank employees can request the application to scrape the information from Yelp. If the information for that zipcode was present, then the data is clustered according to affordability. As much of the data necessary for this project is confidential, we were not able to get access to sales, therefore we used the safety ratings and a paper that analyzed revenue generation according to safety rating in the New York City area, to methematically calculate the possible revenue generated for the restaurants. The restaurant of interest and the generated sales are then fed into the models Arima Forecasting, LSTM Anomaly Detection, and LSTM Multivariate modeling to develop a greater understanding of the restaurant its survivability.
 
 ## References
@@ -101,5 +114,3 @@ Stutzman, W. (2020, July 20). Why pop-up shops, vending, outdoor dining, food tr
 The Ultimate Guide to Customer Success. (2020). Retrieved from https://hi.fivestars.com/rs/187-VFC-057/images/Fivestars_UltimateLoyaltyGuide.pdf
 
 Zukin, S., Lindeman, S., & Hurson, L. (2015, October 04). The omnivore's neighborhood? Online restaurant reviews, race, and gentrification. Retrieved from https://journals.sagepub.com/doi/abs/10.1177/1469540515611203
-
-***DISCLAIMER: SCRAPING OF YELP CODE IS NOT INCLUDED IN THE REPOSITORY AS IT IS AGAINST YELP TO SCRAPE THEIR DATA***
