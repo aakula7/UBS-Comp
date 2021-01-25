@@ -6,11 +6,17 @@
 [Abstract](https://github.com/aakula7/UBS-Comp/blob/master/README.md#abstract)
 
 [Project Proposal](https://github.com/aakula7/UBS-Comp/blob/master/README.md#project-proposal)
+
 [Overview](https://github.com/aakula7/UBS-Comp/blob/master/README.md#overview)
+
 [Goal](https://github.com/aakula7/UBS-Comp/blob/master/README.md#goal)
+
 [Specifications](https://github.com/aakula7/UBS-Comp/blob/master/README.md#specifications)
+
 [Data](https://github.com/aakula7/UBS-Comp/blob/master/README.md#data)
+
 [Application Backend Structure](https://github.com/aakula7/UBS-Comp/blob/master/README.md#application-backend-structure)
+
 [References](https://github.com/aakula7/UBS-Comp/blob/master/README.md#references)
 
 # Abstract
