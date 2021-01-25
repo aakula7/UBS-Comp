@@ -59,8 +59,47 @@ Income, age, household size and income, urbanization, day of the week, and seaso
 
 ## Application Backend Structure
 
-![Application Backend Structure](https://github.com/[aakula7]/[UBS-Comp]/blob/[master]/Application Backend Structure.PNG?raw=true)
+[Application Backend Structure](https://github.com/aakula7/UBS-Comp/blob/master/Application%20Backend%20Structure.PNG)
 
 The restaurant reviews and information are stored in a database and accessible by wealth manager employees, restaurant owners, and other bank employees. By entering a zipcode they are able to extract the information they need from the database, and if a zipcode data is not available, then the bank employees can request the application to scrape the information from Yelp. If the information for that zipcode was present, then the data is clustered according to affordability. As much of the data necessary for this project is confidential, we were not able to get access to sales, therefore we used the safety ratings and a paper that analyzed revenue generation according to safety rating in the New York City area, to methematically calculate the possible revenue generated for the restaurants. The restaurant of interest and the generated sales are then fed into the models Arima Forecasting, LSTM Anomaly Detection, and LSTM Multivariate modeling to develop a greater understanding of the restaurant its survivability.
+
+## References
+
+Bartik, A., Bertrand, M., Cullen, Z., Glaeser, E., Luca, M., & Stanton, C. (2020, July 28). The impact of COVID-19 on small business outcomes and expectations. Retrieved from https://www.pnas.org/content/117/30/17656
+
+Wansink, B., G. (2006, November 01). Wine Promotions in Restaurants: Do Beverage Sales Contribute or Cannibalize? - Brian Wansink, Glenn Cordua, Ed Blair, Collin Payne, Stephanie Geiger, 2006. Retrieved from https://journals.sagepub.com/doi/abs/10.1177/0010880406294656
+
+Dixon, V. (2020, March 24). By the Numbers: COVID-19's Devastating Effect on the Restaurant Industry. Retrieved from https://www.eater.com/2020/3/24/21184301/restaurant-industry-data-impact-covid-19-coronavirus
+
+Doyle, T. (2020, April 09). Boston Food Trucks Are Struggling to Cope With the COVID-19 Pandemic. Retrieved from https://boston.eater.com/2020/4/9/21213493/boston-food-trucks-struggling-coronavirus-pandemic
+
+Hanaysha, J. (2016, April). The Importance of Social Media Advertisements in Enhancing Brand Equity: A Study on Fast Food Restaurant Industry in Malaysia. Retrieved from http://www.ijimt.org/vol7/643-M738.pdf
+
+Harris, K., Depietro, R. B., Klein, J., & Jin, D. (2020, May 29). The Impact of Social Norms and Risk Assessment on Diners' Reaction to Food Safety Concerns in Restaurants. Retrieved from https://doi.org/10.1080/15378020.2020.1765947
+
+Hossain, F., & Adelaja, A. (1970, January 01). Consumers’ Interest in Alternative Food Delivery Systems: Results From a Consumer Survey in New Jersey. Retrieved from https://ageconsearch.umn.edu/record/27754/
+
+Keh, H., & Lee, Y. (2006, April 18). Do reward programs build loyalty for services?: The moderating effect of satisfaction on type and timing of rewards. Retrieved from https://www.sciencedirect.com/science/article/abs/pii/S0022435906000194
+
+Kim, E., & Geistfeld, L. V. (2008, September 08). Consumers' Restaurant Choice Behavior and the Impact of Socio-Economic and Demographic Factors. Retrieved from https://doi.org/10.1300/J369v06n01_02
+
+Kimes, S. (1999, June 01). Implementing Restaurant Revenue Management: A Five-step Approach - Sheryl E. Kimes, 1999. Retrieved from https://journals.sagepub.com/doi/abs/10.1177/001088049904000315
+
+Le, N. (2015, December). Small Ethnic Restaurant Business Owner Strategies to Remain Operable Beyond 7 Years. Retrieved from https://scholarworks.waldenu.edu/dissertations/1903/
+
+Mattila, A. S. (2001, December 01). Emotional Bonding and Restaurant Loyalty. Retrieved from https://journals.sagepub.com/doi/abs/10.1177/0010880401426009?journalCode=cqxa
+
+Needles, A., & Thompson, G. M. (2013, February 05). Social Media Use in the Restaurant Industry: A Work in Progress. Retrieved from https://scholarship.sha.cornell.edu/cgi/viewcontent.cgi?referer=https://scholar.google.com/&httpsredir=1&article=1100&context=chrpubs
+
+Rarh, F., Pojee, D., Zulphekari, S., & Shah, V. (2018, March 22). Restaurant table reservation using time-series prediction. Retrieved from https://ieeexplore.ieee.org/abstract/document/8321254
+
+Smith, D. P. (2014, March 01). An Inside Look at Outdoor Dining. Retrieved from https://www.fsrmagazine.com/inside-look-outdoor-dining
+State of the Industry. (2020). Retrieved from https://www.opentable.com/state-of-industry
+
+Stutzman, W. (2020, July 20). Why pop-up shops, vending, outdoor dining, food trucks, and pick-up services are surging. Retrieved from https://www.foodtruckoperator.com/blogs/pop-up-shops-vending-outdoor-dining-food-trucks-and-pick-up-services-surge/
+
+The Ultimate Guide to Customer Success. (2020). Retrieved from https://hi.fivestars.com/rs/187-VFC-057/images/Fivestars_UltimateLoyaltyGuide.pdf
+
+Zukin, S., Lindeman, S., & Hurson, L. (2015, October 04). The omnivore's neighborhood? Online restaurant reviews, race, and gentrification. Retrieved from https://journals.sagepub.com/doi/abs/10.1177/1469540515611203
 
 ***DISCLAIMER: SCRAPING OF YELP CODE IS NOT INCLUDED IN THE REPOSITORY AS IT IS AGAINST YELP TO SCRAPE THEIR DATA***
